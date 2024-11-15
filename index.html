@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="" id="form">
+      <h2><b>Create acc</b></h2>
+      <!-- 1 -->
+      <div class="form__box">
+        <input type="text" id="name" name="name" placeholder="user name" />
+      </div>
+      <!-- 2 -->
+      <div class="form__box">
+        <input type="email" id="email" name="email" placeholder="user email" />
+      </div>
+      <!-- 3 -->
+      <div class="form__box">
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="user password"
+        />
+      </div>
+      <!-- 4 -->
+      <div class="form__box">
+        <input
+          type="password"
+          id="confirmPassword"
+          name="password"
+          placeholder="Confirm user password"
+        />
+      </div>
+      <!-- 5 -->
+      <div class="form__box">
+        <input
+          id="age"
+          class="input"
+          autocomplete="off"
+          type="text"
+          placeholder="Enter your age"
+        />
+      </div>
+      <button type="button" id="showPass">Show/hide password</button>
+      <button id="button" type="submit">Send form</button>
+    </form>
+    <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
